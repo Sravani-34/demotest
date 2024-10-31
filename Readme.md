@@ -1,33 +1,32 @@
-testfire.net website login functionality using Cypress automation
-
+Automating Login Functionality for TestFire.net using Cypress
 Prerequisites
-To setup the Cypress framework, install following
+To set up the Cypress framework, ensure the following are installed:
 
-Node.js (v12 or higher)
-Cypress (install using npm)
-Git (For cloning the repository)
-Above setup must be completed before executing the test cases
+Node.js (version 12 or higher)
+Cypress (installed via npm)
+Git (for cloning the repository)
+Note: These prerequisites must be completed before running any test cases.
 
-Steps to follow:
-Clone the repository:
-
+Setup Steps
+1) Clone the Repository
+Clone the required repository by running the following command:
 git clone https://github.com/Sravani-34/demotest.git
 
-Install Cypress:
-
-Install Cypress via node package manager (npm) using below command.
-
+2) Install Cypress
+Install Cypress via the Node Package Manager (npm) using the following command:
 npm install cypress --save-dev
 
+3) Open Cypress
+To launch the Cypress interactive test runner, execute:
 npx cypress open
 
-Execute below command:
-
+4) Run Cypress Tests
+To execute tests via the command line, use:
 npx cypress run
 
 Viewing Test Reports
-Cypress automatically generates reports for testrun, it contains both pass and fail results in green and red colour repectively.
+Cypress automatically generates test run reports, displaying results in green for passed tests and red for failed tests.
 
-Please refer below link to see detailed manual test cases:
+For detailed manual test cases, please refer to the following link:
 
 https://docs.google.com/spreadsheets/d/1-qAH5ERkGgieMPoBcIc7QU6Do2Bl_NhjntAzfAxT8os/edit?usp=sharing
